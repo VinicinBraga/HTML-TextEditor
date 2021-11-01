@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>HTML TEXT EDITOR</h1>
+        <h2>HTML TEXT CREATOR</h2>
       </header>
       <div className="editor">
         <TextEditor />

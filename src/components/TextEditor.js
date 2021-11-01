@@ -19,7 +19,7 @@ export default class TextEditor extends Component {
     const { editorState } = this.state;
     console.log();
     return (
-      <div>
+      <div className="editor-front">
         <Editor
           editorState={editorState}
           toolbarClassName="toolbarClassName"
@@ -28,6 +28,7 @@ export default class TextEditor extends Component {
           onEditorStateChange={this.onEditorStateChange}
         />
         <textarea
+          className="text-area"
           disabled
           value={draftToHtml(convertToRaw(editorState.getCurrentContent()))}
         ></textarea>
