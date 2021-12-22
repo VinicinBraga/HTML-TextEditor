@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: center;
   color: rgba(0, 0, 0, 0.6);
-  background: #5aca9b;
+  background: #3973a8;
   text-shadow: 3px 2px 3px rgba(255, 255, 255, 0.2);
   font-family: Arial, Helvetica, sans-serif;
   padding-bottom: 10px;
@@ -19,10 +19,22 @@
   width: 900px;
   background: #2f2f2f;
   text-shadow: 3px 2px 3px rgba(255, 255, 255, 0.2);
+  box-shadow: 5px 5px 15px 5px #00000081;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .editor-front {
   background-color: #ffffff;
-  height: 100%;
+  height: 400px;
+}
+.editorClassName {
+  border: solid 1px grey;
+  margin: 10px;
+}
+.text-area {
+  border: solid 1px grey;
+  padding: 5px;
+  margin-left: 10px;
+  width: 868px;
+  height: 220px;
 }
