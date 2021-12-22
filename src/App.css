@@ -25,7 +25,8 @@
 
 .editor-front {
   background-color: #ffffff;
-  height: 400px;
+  height: 100%;
+  padding-bottom: 5px;
 }
 .editorClassName {
   border: solid 1px grey;
